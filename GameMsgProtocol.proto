@@ -65,10 +65,6 @@ message WhoElseIsHereResult {
 ///////////////////////////////////////////////////////////////////////
 // 指令
 message UserMoveToCmd {
-    // 
-    // XXX 注意: 用户移动指令中没有用户 Id,
-    // 这是为什么?
-    // 
     // 移动到位置 X
     float moveToPosX = 1;
     // 移动到位置 Y
