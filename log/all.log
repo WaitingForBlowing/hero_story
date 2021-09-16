@@ -1,7 +1,1 @@
-[18:04:33,795] [INFO] ServerMain.main --> 服务器启动
-[18:22:32,125] [INFO] ServerMain.main --> 服务器启动
-[18:24:06,515] [INFO] ServerMain.main --> 服务器启动
-[18:32:55,516] [INFO] ServerMain.main --> 服务器启动
-[18:33:18,000] [ERROR] GameMsgEncoder.write --> 无法识别消息类型, msgClazz = com.moozlee.hero_story.msg.GameMsgProtocol$UserQuitResult
-[18:33:33,201] [ERROR] GameMsgEncoder.write --> 无法识别消息类型, msgClazz = com.moozlee.hero_story.msg.GameMsgProtocol$UserQuitResult
-[18:34:18,612] [INFO] ServerMain.main --> 服务器启动
+[19:43:38,991] [INFO] ServerMain.main --> 服务器启动

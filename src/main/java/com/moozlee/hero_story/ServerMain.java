@@ -1,5 +1,7 @@
 package com.moozlee.hero_story;
 
+import com.moozlee.hero_story.handler.cmd.CmdHandlerFactory;
+import com.moozlee.hero_story.handler.pipline.GameMsgHandler;
 import com.moozlee.hero_story.msg.GameMsgDecoder;
 import com.moozlee.hero_story.msg.GameMsgEncoder;
 import io.netty.bootstrap.ServerBootstrap;
@@ -16,6 +18,8 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class ServerMain {
     public static void main(String[] args) {
+        CmdHandlerFactory.init();
+
         NioEventLoopGroup boss = new NioEventLoopGroup();
         NioEventLoopGroup worker = new NioEventLoopGroup();
 
